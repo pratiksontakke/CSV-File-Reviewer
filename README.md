@@ -44,12 +44,12 @@ On terminal perform:
 - You can choose multiple .csv files 
 - Open in CSV File Reviewer
 
-## API Presentation Video
+## Presentation Video
 <ul>
   <li><a href="#">Video Link</a></li>
 </ul>
 
-## API Presentation 
+## Presentation 
 ![CSV File Reviewer](./images/01.jpg)
 
 ![CSV File Reviewer](./images/02.jpg)
