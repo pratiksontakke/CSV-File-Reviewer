@@ -38,7 +38,7 @@ On terminal perform:
 - Storing data with local storage
 - Clear data button
 
-## Flow of User
+## Flow of user
 
 - Choose .csv file 
 - You can choose multiple .csv files 
