@@ -54,6 +54,8 @@ On terminal perform:
 
 ![CSV File Reviewer](./images/02.jpg)
 
+![CSV File Reviewer](./images/03.jpg)
+
 ## Thank you note
 Thank you all who is giving precious time to visit my little creative project which is made with lot of efforts.
 
