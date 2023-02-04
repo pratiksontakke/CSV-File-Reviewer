@@ -8,8 +8,6 @@
     color: white;
 }
 
-
-
 .container {
     width: 80%;
     margin: 0 auto;
@@ -34,6 +32,14 @@ th {
     font-weight: bold;
 }
 
+.even-row {
+    background-color: #f2f2f2;
+}
+
+table tbody tr:hover {
+    background-color: #e6e6e6;
+}
+
 input[type="file"] {
     padding: 10px;
     border: 1px solid #ddd;
@@ -42,7 +48,6 @@ input[type="file"] {
     width: 100%;
     box-sizing: border-box;
 }
-
 
 @media only screen and (max-width: 600px) {
     table,

@@ -1,8 +1,18 @@
-
 let input = document.querySelector("input[type='file']");
 let table = document.querySelector("table");
 let hasHeading = false;
 let rowCount = 0;
+
+if (localStorage.getItem("rowCount")) {
+    // Retrieve the value of rowCount from local storage
+    rowCount = parseInt(localStorage.getItem("rowCount"));
+}
+
+// Check if the data exists in local storage
+if (localStorage.getItem("tableData")) {
+    table.innerHTML = localStorage.getItem("tableData");
+}
+
 input.addEventListener("change", function () {
     let files = this.files;
     for (let i = 0; i < files.length; i++) {
@@ -28,9 +38,8 @@ input.addEventListener("change", function () {
                 let cells = row.split(",");
                 let tr = document.createElement("tr");
 
-                if (rowCount % 2 === 0) {
-                    tr.style.backgroundColor = "#f2f2f2";
-                }
+                let trClass = rowCount % 2 === 0 ? "even-row" : "odd-row";
+                tr.classList.add(trClass);
                 rowCount++;
 
                 // Order Number
@@ -45,7 +54,7 @@ input.addEventListener("change", function () {
                 let costPrice = parseInt(cells[2]);
                 let transferredAmount1 = parseInt(cells[3]);
                 let profitLoss = transferredAmount1 - costPrice;
-                console.log(transferredAmount1 + " " + costPrice);
+                // console.log(transferredAmount1 + " " + costPrice);
                 td.textContent = profitLoss.toFixed(0);
                 tr.appendChild(td);
 
@@ -67,9 +76,8 @@ input.addEventListener("change", function () {
                 tbody.appendChild(tr);
             }
             table.appendChild(tbody);
+            localStorage.setItem("tableData", table.innerHTML);
+            localStorage.setItem("rowCount", rowCount);
         };
     }
 });
-
-
-
