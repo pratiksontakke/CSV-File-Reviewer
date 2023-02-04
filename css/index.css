@@ -30,6 +30,8 @@ table {
     width: 100%;
     border-collapse: collapse;
     margin: 20px 0;
+    font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+    font-size: 16px;
 }
 
 th,

@@ -50,13 +50,9 @@ On terminal perform:
 </ul>
 
 ## API Presentation 
-![API](./images/01.jpg)
+![CSV File Reviewer](./images/01.jpg)
 
-![API](./images/02.jpg)
-
-![API](./images/03.jpg)
-
-![API](./images/04.jpg)
+![CSV File Reviewer](./images/02.jpg)
 
 ## Thank you note
 Thank you all who is giving precious time to visit my little creative project which is made with lot of efforts.
