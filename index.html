@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <link rel="stylesheet" href="css/index.css" />
+        <title>CSV File Reviewer</title>
+    </head>
+    <body>
+        <div class="container">
+            <h2>CSV File Reviewer</h2>
+            <input type="file" id="fileInput" />
+            <table id="csvTable">
+                <thead>
+                    <tr>
+                        <th>Order Number</th>
+                        <th>Profit/loss(%)</th>
+                        <th>Transferred Amount</th>
+                        <th>Total Marketplace Charges</th>
+                    </tr>
+                </thead>
+                <tbody id="tableBody">
+                    <!-- table data will be added here dynamically -->
+                </tbody>
+            </table>
+        </div>
+        <script src="js/index.js"></script>
+    </body>
+</html>
