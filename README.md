@@ -35,7 +35,8 @@ On terminal perform:
 ## Functionality
 
 - Reviewing and analyzing CSV data from .csv files.
-- Storing data with localStorage
+- Storing data with local storage
+- Clear data button
 
 ## Flow of User
 

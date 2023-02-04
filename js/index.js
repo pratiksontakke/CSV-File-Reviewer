@@ -81,3 +81,12 @@ input.addEventListener("change", function () {
         };
     }
 });
+
+// to clear .csv file data
+let clearBtn = document.querySelector("#clearBtn");
+
+clearBtn.addEventListener("click", function () {
+    localStorage.removeItem("tableData");
+    localStorage.removeItem("rowCount");
+    location.reload();
+});
