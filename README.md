@@ -6,6 +6,11 @@ A CSV (Comma-Separated Values) File Reviewer project is a tool used to review an
 ## Deployed link of project
 - <a href="https://sage-bombolone-1d3f78.netlify.app/"> CSV File Reviewer </a>
 
+## Presentation Video
+<ul>
+  <li><a href="https://drive.google.com/file/d/1pa0WzDkfMWQXzePSlyfsOXlPcmg1487w/view?usp=share_link">Video Link</a></li>
+</ul>
+
 ## Team Members
 
 <ul>
@@ -44,10 +49,6 @@ On terminal perform:
 - You can choose multiple .csv files 
 - Open in CSV File Reviewer
 
-## Presentation Video
-<ul>
-  <li><a href="#">Video Link</a></li>
-</ul>
 
 ## Presentation 
 ![CSV File Reviewer](./images/01.jpg)
